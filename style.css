@@ -113,13 +113,12 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
   font-size: 20px;
-  color: white;
+  text-decoration: underline;
 }
 
-a:active {
-  text-decoration: none;
-  font-size: 0;
+a:hover:active {
+  font-size: 0px;
   color: #0d6efd;
+  text-decoration: none;
 }
